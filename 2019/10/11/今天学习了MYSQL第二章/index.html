@@ -8,22 +8,22 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>今天学习了MYSQL第二章 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。####数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外">
+  <meta name="description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外键约束，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="今天学习了MYSQL第二章">
 <meta property="og:url" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。####数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外">
+<meta property="og:description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外键约束，">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E4%B8%BB%E9%94%AE.PNG">
 <meta property="og:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E5%A4%96%E9%94%AE.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E5%94%AF%E4%B8%80%E7%BA%A6%E6%9D%9F.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E9%BB%98%E8%AE%A4%E7%BA%A6%E6%9D%9F.png">
 <meta property="og:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E9%9D%9E%E7%A9%BA.png">
-<meta property="og:updated_time" content="2019-10-11T14:16:04.474Z">
+<meta property="og:updated_time" content="2019-10-13T04:01:33.104Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="今天学习了MYSQL第二章">
-<meta name="twitter:description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。####数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外">
+<meta name="twitter:description" content="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。数据库的完整性数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。域完整性：用来限制输入的数值范围，体现为外键约束，">
 <meta name="twitter:image" content="http://yoursite.com/2019/10/11/今天学习了MYSQL第二章/img/%E4%B8%BB%E9%94%AE.PNG">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -180,15 +180,34 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"><a href="#本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。" class="headerlink" title="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"></a>本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。</h1><p>####数据库的完整性<br>数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。<br>数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。<br>实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。<br>域完整性：用来限制输入的数值范围，体现为外键约束，默认值约束，非空约束。<br>引用完整性：保证两个引用表之间的关系。是基于外键与主键之间的关系。通过外键约束。<br>用户自定义完整性：基于前三个完整性 外 添加的用户自定义的约束条件。</p>
+        <h1 id="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"><a href="#本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。" class="headerlink" title="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"></a>本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。</h1><p><strong>数据库的完整性</strong><br>数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。<br>数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。<br>实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。<br>域完整性：用来限制输入的数值范围，体现为外键约束，默认值约束，非空约束。<br>引用完整性：保证两个引用表之间的关系。是基于外键与主键之间的关系。通过外键约束。<br>用户自定义完整性：基于前三个完整性 外 添加的用户自定义的约束条件。</p>
+<a id="more"></a>
 <hr>
-<p>####五个约束<br>主键约束 ：主键数据唯一，不为空……<br>Navicat下<img src="img/%E4%B8%BB%E9%94%AE.PNG" alt><br>外键约束：要求主键列的唯一性，并且不为空。语法{列名数据类型 PRIMARY 【默认值】}<br>Navicat下<img src="img/%E5%A4%96%E9%94%AE.png" alt><br>唯一约束 :要求该列的值唯一，允许为空，但是只能出现一个空值。用来确保该列或多列不重复。UNIQUE<br><img src="img/%E5%94%AF%E4%B8%80%E7%BA%A6%E6%9D%9F.png" alt><br>默认值约束 :用来指定某列的默认值。语法{列名数据类型 default 默认值}<br><img src="img/%E9%BB%98%E8%AE%A4%E7%BA%A6%E6%9D%9F.png" alt><br>非空约束 :指字段的值不为空。语法{列名数据类型 not null}<br><img src="img/%E9%9D%9E%E7%A9%BA.png" alt></p>
+<p><strong>五个约束</strong><br>主键约束 ：主键数据唯一，不为空……</p>
+<p>Navicat下<img src="img/%E4%B8%BB%E9%94%AE.PNG" alt></p>
+<p><strong>外键约束：</strong>要求主键列的唯一性，并且不为空。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">语法&#123;列名数据类型 PRIMARY 【默认值】&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Navicat下效果：<img src="img/%E5%A4%96%E9%94%AE.png" alt></p>
+<p><strong>唯一约束 :</strong>要求该列的值唯一，允许为空，但是只能出现一个空值。用来确保该列或多列不重复。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">UNIQUE</span><br></pre></td></tr></table></figure>
+
+<p>Navicat下效果：<br><img src="img/%E5%94%AF%E4%B8%80%E7%BA%A6%E6%9D%9F.png" alt></p>
+<p><strong>默认值约束 :</strong>用来指定某列的默认值。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">语法&#123;列名数据类型 default 默认值&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Navicat下效果：<br><img src="img/%E9%BB%98%E8%AE%A4%E7%BA%A6%E6%9D%9F.png" alt></p>
+<p><strong>非空约束 :</strong>指字段的值不为空。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">语法&#123;列名数据类型 not null&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Navicat下效果：</p>
+<p><img src="img/%E9%9D%9E%E7%A9%BA.png" alt></p>
 <hr>
-<p>####设置字段为自动增长<br>一个表中只能有一个字段用自动增长。必须为主键的一个部分，不得单独使用。必须为int型.</p>
+<p><strong>设置字段为自动增长</strong><br>一个表中只能有一个字段用自动增长。必须为主键的一个部分，不得单独使用。必须为int型.</p>
 <hr>
-<p>####E-R图模型<br>实体：矩形      属性：椭圆      关系：菱形      映射基数：一对一，一对多，多对一，多对多</p>
+<p><strong>E-R图模型</strong><br>实体：矩形      属性：椭圆      关系：菱形      映射基数：一对一，一对多，多对一，多对多</p>
 <hr>
-<p>####规范设计<br>第一范式：确保每一列的原子性<br>第二范式：确保每列都与主键相关<br>第三范式：确保每列都与主键直接相关</p>
+<p><strong>规范设计</strong><br>第一范式：确保每一列的原子性<br>第二范式：确保每列都与主键相关<br>第三范式：确保每列都与主键直接相关</p>
 
       
 

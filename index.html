@@ -172,16 +172,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"><a href="#本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。" class="headerlink" title="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"></a>本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。</h1><p>####数据库的完整性<br>数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。<br>数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。<br>实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。<br>域完整性：用来限制输入的数值范围，体现为外键约束，默认值约束，非空约束。<br>引用完整性：保证两个引用表之间的关系。是基于外键与主键之间的关系。通过外键约束。<br>用户自定义完整性：基于前三个完整性 外 添加的用户自定义的约束条件。</p>
-<hr>
-<p>####五个约束<br>主键约束 ：主键数据唯一，不为空……<br>Navicat下<img src="img/%E4%B8%BB%E9%94%AE.PNG" alt><br>外键约束：要求主键列的唯一性，并且不为空。语法{列名数据类型 PRIMARY 【默认值】}<br>Navicat下<img src="img/%E5%A4%96%E9%94%AE.png" alt><br>唯一约束 :要求该列的值唯一，允许为空，但是只能出现一个空值。用来确保该列或多列不重复。UNIQUE<br><img src="img/%E5%94%AF%E4%B8%80%E7%BA%A6%E6%9D%9F.png" alt><br>默认值约束 :用来指定某列的默认值。语法{列名数据类型 default 默认值}<br><img src="img/%E9%BB%98%E8%AE%A4%E7%BA%A6%E6%9D%9F.png" alt><br>非空约束 :指字段的值不为空。语法{列名数据类型 not null}<br><img src="img/%E9%9D%9E%E7%A9%BA.png" alt></p>
-<hr>
-<p>####设置字段为自动增长<br>一个表中只能有一个字段用自动增长。必须为主键的一个部分，不得单独使用。必须为int型.</p>
-<hr>
-<p>####E-R图模型<br>实体：矩形      属性：椭圆      关系：菱形      映射基数：一对一，一对多，多对一，多对多</p>
-<hr>
-<p>####规范设计<br>第一范式：确保每一列的原子性<br>第二范式：确保每列都与主键相关<br>第三范式：确保每列都与主键直接相关</p>
-
+        <h1 id="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"><a href="#本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。" class="headerlink" title="本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。"></a>本次上课讲了数据库的完整性，五个约束，一个自动增长，E-R图模型，三个范式。</h1><p><strong>数据库的完整性</strong><br>数据的完整性是指数据的精确性和可靠性，他的目的是为了防止数据库中存在不符合语义规定的数据或因错误信息的输入而照成的无效操作。<br>数据完整性分为四类：实体完整性，域完整性，引用完整性，用户自定义完整性。<br>实体完整性：用来定义每一行为唯一的，主要体现主键约束和唯一约束。<br>域完整性：用来限制输入的数值范围，体现为外键约束，默认值约束，非空约束。<br>引用完整性：保证两个引用表之间的关系。是基于外键与主键之间的关系。通过外键约束。<br>用户自定义完整性：基于前三个完整性 外 添加的用户自定义的约束条件。</p>
+        
+          <a class="article-more-a" href="/2019/10/11/今天学习了MYSQL第二章/#more">more >></a>
+        
       
 
       
@@ -308,18 +302,9 @@
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        
+          <a class="article-more-a" href="/2019/10/10/hello-world/#more">more >></a>
+        
       
 
       
